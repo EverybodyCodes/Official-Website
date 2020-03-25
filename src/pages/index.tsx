@@ -8,6 +8,7 @@ import Todos from '../components/todos/todos';
 import LoginSection from '../components/login/login-section';
 import { IState } from '../state/createStore';
 import { ITodo } from '../models/todo';
+import '../styles/app.css';
 
 const imgStyle = { maxWidth: '300px', marginBottom: '1.45rem' };
 
@@ -27,8 +28,9 @@ const IndexPage = ({ todos = [], userId = 0}: { todos: ITodo[] | undefined, user
       </div>
 
       <div style={pStyle}>
-        <p>Welcome to your new Gatsby site...</p>
-        <p>Now go build something great!</p>
+        <h1 className="text-6xl">Yay, Tailwind is working!</h1>
+        <br/>
+
       </div>
 
       <LoginSection userId={userId} />
