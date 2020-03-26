@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Header from './header';
 import './layout.css';
 import { todosRequested } from '../state/actions/todos';
+// import '../styles/app.css'
 
 const Layout = ({ children }: { children: any }) => {
 
@@ -50,16 +51,10 @@ const Layout = ({ children }: { children: any }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {' '}
-          <a href='https://www.gatsbyjs.org'>Gatsby</a>
-          {' '}
-          by
-          {' '}
-          <a href='https://www.evaluates2.com'>Evaluates2</a>
-          .
+
+        <main className='flex flex-col text-center items-center'>{children}</main>
+        <footer className='flex flex-col text-center mt-5'>
+          <h4 className='m-auto'>EverybodyCodes © {new Date().getFullYear()}</h4>
         </footer>
       </div>
     </>
