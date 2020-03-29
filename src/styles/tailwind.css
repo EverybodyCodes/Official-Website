@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind component;
 @tailwind utilities;
+
+.max-h-0 {
+    max-height: 0;
+}

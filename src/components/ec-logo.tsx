@@ -18,7 +18,7 @@ const EcLogoImage = () => {
     query {
       placeholderImage: file(relativePath: { eq: "ec-logo.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid
           }
         }

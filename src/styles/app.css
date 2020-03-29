@@ -13920,6 +13920,10 @@ video {
   transition-duration: 1000ms;
 }
 
+.max-h-0 {
+  max-height: 0;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
