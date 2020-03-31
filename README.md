@@ -54,10 +54,12 @@ Run linting (calls both prettier linting and tslint):
 npm run lint
 ```
 
-Deploy:
+Deploy to Github Pages:
 ```
-npm run deploy
+npm run deploy-gh
 ```
+
+Live site: https://everybodycodes.github.io/Official-Website/
 
 
 # Scaffolding
