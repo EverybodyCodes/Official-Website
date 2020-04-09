@@ -14,10 +14,14 @@ Install dependencies:
 yarn install
 ```
 
+_NOTE: Use `yarn` to install deps... `npm i` screws up sometimes..._
+
 Run locally (with hot module reloading):
 ```
 npm start
 ```
+
+then see the site at http://localhost:8000/
 
 Create local build:
 ```

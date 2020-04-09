@@ -13924,8 +13924,71 @@ video {
   max-height: 0;
 }
 
-.cool {
-  background-color: red;
+.cool-neon-text {
+  font-size: 69px;
+  text-align: center;
+  font-family: 'Warnes', cursive;
+  color: #fff;
+  line-height: 7rem;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #111fa1, 0 0 6px #111fa1, 0 0 9px #111fa1, 0 0 11px #111fa1, 0 0 13px #111fa1;
+}
+
+.cool-button {
+  display: inline-block;
+  box-sizing:border-box;
+  min-width:100px;
+  padding: 22px 33px;
+  font-family: 'Lobster', cursive;
+  font-size: 26px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+  background: #0c5e17;
+  outline: none;
+  border-radius: 15px;
+  border: 1px solid #004c0a;
+  box-shadow:
+		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
+		inset 0 0 6px #27a246, /* inner glow */
+		inset 0 80px 80px -40px #27a246, /* gradient */
+		1px 1px 3px rgba(0,0,0,0.75); /* shadow */
+  position: relative;
+  overflow: visible; /* IE9 & 10 */
+  transition: 500ms linear;
+}
+
+.cool-button::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: -3px;
+  right: 0;
+  height: 23px;
+}
+
+.cool-button:hover {
+  background: #1ba00e;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.75), 0 0 40px #FFF;
+  box-shadow:
+		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
+		inset 0 0 6px #49da2cfa, /* inner glow */
+		inset 0 80px 80px -40px #49da2cfa, /* gradient */
+		1px 1px 3px rgba(0,0,0,0.75); /* shadow */
+}
+
+.cool-button:focus {
+  outline: none; /*FF*/
+}
+
+.cool-button:active {
+  box-shadow:
+		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
+		inset 0 0 6px #49da2cfa, /* inner glow */
+		inset 0 80px 80px -40px #49da2cfa, /* gradient */
+		0px 1px 0px rgba(255,255,255,0.25); /* shadow */
+  transition: 50ms linear;
 }
 
 @media (min-width: 640px) {

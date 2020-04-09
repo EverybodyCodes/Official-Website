@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/Gatsby-Starter-TypeScript-Redux-TDD-BDD',
+  pathPrefix: '/Official-Website/',
   siteMetadata: {
     title: `EverybodyCodes`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,

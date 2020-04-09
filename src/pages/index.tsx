@@ -20,21 +20,21 @@ const IndexPage = ({ todos = [], userId = 0 }: { todos: ITodo[] | undefined, use
       <div className='m-10'></div>
 
       <div style={pStyle}>
-        <h1 className="mt-8 leading-normal text-4xl">Awesome people teaching EVERYBODY how to code!</h1>
+        <h1 className="cool-neon-text mt-8 mx-2 my-2 text-4xl sm:text-5xl lg:text-6xl">Awesome people teaching EVERYBODY how to code!</h1>
       </div>
 
-      <div className='m-10 rounded-md overflow-hidden max-w-md w-64'>
+      <div className='m-10 rounded-md overflow-hidden w-64'>
         <EcLogoImage />
       </div>
 
       <div className='m-10'>
 
-        <h1 className='leading-normal'>
+        <h1 className='cool-neon-text mt-8 mx-2 mb-16 text-4xl sm:text-5xl lg:text-6xl'>
           Check out the EverybodyCodes Github organization!
         </h1>
 
         <a href='https://github.com/EverybodyCodes'>
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cool-button">
             <h3 className='m-auto'>
               Join Us On Github!
             </h3>
@@ -45,12 +45,12 @@ const IndexPage = ({ todos = [], userId = 0 }: { todos: ITodo[] | undefined, use
 
       <div className='m-10'>
 
-        <h1 className='leading-normal'>
+        <h1 className='cool-neon-text mt-8 mx-2 text-4xl sm:text-5xl lg:text-6xl'>
           Join the conversations in the EverybodyCodes Slack channel!
         </h1>
 
         <a href='https://join.slack.com/t/everybodycodes/shared_invite/zt-d1uo3ra9-kkz4R08kI1Tv6dFNRU5Olw'>
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cool-button">
             <h3 className='m-auto'>
               Join Us In Slack!
             </h3>
@@ -61,12 +61,12 @@ const IndexPage = ({ todos = [], userId = 0 }: { todos: ITodo[] | undefined, use
 
       <div className='m-10'>
 
-        <h1 className='leading-normal'>
+        <h1 className='cool-neon-text mt-8 mx-2 text-4xl sm:text-5xl lg:text-6xl'>
           Are you on the socials? Follow us on Twitter!
         </h1>
 
         <a href='https://twitter.com/Everybody_Codes'>
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cool-button">
             <h3 className='m-auto'>
               Follow Us On Twitter!
             </h3>
@@ -77,21 +77,22 @@ const IndexPage = ({ todos = [], userId = 0 }: { todos: ITodo[] | undefined, use
 
       <div className='m-10'>
 
-        <h1 className='leading-normal'>
+        <h1 className='cool-neon-text mt-8 mb-16 text-4xl sm:text-5xl lg:text-6xl'>
           Have ideas for making EverybodyCodes better?!
         </h1>
 
         <div className='m-10'></div>
 
-        <h2 className='leading-normal'>
+        <h2 className='cool-neon-text mt-8 mx-2 mb-8 text-4xl sm:text-5xl lg:text-6xl'>
           We love new contributors with fresh ideas, so don't be shy!
         </h2>
 
+
         <a href='https://twitter.com/Everybody_Codes'>
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cool-button">
             <h3 className='m-auto'>
               Send Us a Tweet!
-          </h3>
+            </h3>
           </button>
         </a>
 

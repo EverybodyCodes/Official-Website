@@ -208,6 +208,10 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  background-image: url("../images/away.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(250, 226, 249);
 }
 img {
   max-width: 100%;
