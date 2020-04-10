@@ -6,7 +6,7 @@
   "author": "Jim Lynch <jim.lynch@evaluates2.com>",
   "scripts": {
     "tailwind:build": "tailwind build src/styles/tailwind.css -o src/styles/app.css",
-    "build": "npm run tailwind:build && gatsby build --prefix-paths",
+    "build": "npm run clean && npm run tailwind:build && gatsby build --prefix-paths",
     "develop": "gatsby develop --prefix-path",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "tslint": "tslint \"src/**/*.ts[x]\" --fix",

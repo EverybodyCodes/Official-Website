@@ -20,7 +20,7 @@ const IndexPage = ({ todos = [], userId = 0 }: { todos: ITodo[] | undefined, use
       <div className='m-10'></div>
 
       <div style={pStyle}>
-        <h1 className="cool-neon-text mt-8 mx-2 my-2 text-4xl sm:text-5xl lg:text-6xl">Awesome people teaching EVERYBODY how to code!</h1>
+        <h1 className="cool-neon-text mt-8 mx-2 my-2 text-4xl sm:text-5xl lg:text-6xl">Awesome people helping EVERYBODY learn to code! ♥️</h1>
       </div>
 
       <div className='m-10 rounded-md overflow-hidden w-64'>
